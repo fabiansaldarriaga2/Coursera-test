@@ -6,39 +6,76 @@
     <meta charset="utf-8">
     <title> Anotaciones </title>
 </head>
+<style>
+h1 {
+    color: red;
+    text-align: center;
+  }
+.inicio {
+    font-style: italic;
+}
+</style>
 <div>
 <body>
     </div>
-    <h1 id="Top">Soluciones a problemas</h1>
+    <h1 class="highlight" id="Top">Notas del curso</h1>
     <section>
         <ol>
             <!--Contenido de la pagina y sus hiperlinks-->
             <li><a href="#section1">Problemas de acceso</a></li>
-            <li><a href="#section2">Cambio de informacion del usuario</a></li>
+            <li><a href="#section2">Anotaciones</a></li> 
         </ol>
     </section>
     
     <ol>
     <section id="section1">
-        <li><h2>Problemas de acceso</h2></li>
+        <li><h2>Solucion de problemas</h2></li>
+        <ul>
+            <li><h3>Problemas de acceso y credenciales</h3></li>    
         <p>Si aparecen errores de credenciales se deben reescribir estas credenciales desde su ordenador siguiendo  <br>
         la ruta &lt;Windows 10&gt;: Busqueda/AdministradorDeCredenciales/CredencialesDeWindows y alli eliminan la    <br>
         credencial existente. <br>
         Ahora se procede con escribir nuevamente en la terminal git bash el comando "git push", alli nuevamente <br> 
         se le pedira al usuario que ingrese sus nuevas credenciales de Github.  <br>
-        </p>
-    </section>
-    <section id="section2">
-        <li><h2>Cambio de informacion del usuario</h2></li>
+        </p> 
+            <li><h3>Cambio de informacion del usuario</h3></li> 
         <p>
         Se debe iniciar con verificar la informacion actual del usuario con el comando: "git config --status"  <br>
         </p>
+        </ul>
     </section>    
-    </ol>
-    <div>
+    
+    <section id="section2" > 
+        <li><h2>Anotaciones</h2></li>
+        <ul>
+        <li><h3>CSS</h3></li>
         <p>
-            Rregresar al  <a href="#Top">inicio</a>
+            Sintaxis basica de CSS:
+            <ul>
+                <li>Selector</li>
+                <li>Declaracion</li>
+                <li>Propiedad/Valor</li>
+            </ul>
+            <p color=red;>Ejemplo:</p> 
+                <ul>
+                    <li>   
+                        1 &nbsp;   p { <br>
+                        2  &nbsp;color: blue; <br>
+                        3  &nbsp;font-size: 20px; <br>
+                        4  &nbsp;width: 200px; <br>
+                        5  &nbsp;} 
+                    </li>
+            </ul>
         </p>
-    </div>
+        </ul>
+    </section>
+</ol>
+
+<!--Regresar al inicio-->
+<div>
+    <p class="inicio">
+        Regresar al  <a href="#Top">inicio</a>
+    </p>
+</div>
 </body>
 </html>
