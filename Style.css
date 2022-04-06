@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+  }
+.inicio {
+    font-style: italic;
+}
+.Ejemplo {
+    color: darkblue;
+}   
+h2 {
+    color:green;  
+}
+
+#columnas1 {
+    float: none; 
+}
+#imagen2 {
+    float: none;
+    clear: both;
+}
+
