@@ -8,6 +8,9 @@ body {
     background-color: #daa520;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none; 
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /** HEADER **/
@@ -22,8 +25,8 @@ body {
 
 .navbar-brand h1{
     padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
+    padding-bottom: 25px; 
+    padding-left: 20px;
     text-align: left; 
     color: #b8860b;
     font-size: 1.5em;
@@ -32,18 +35,28 @@ body {
     position:relative;
     clear: both;
     float: left;
+    
  
 } 
+
+#header-nav {
+    position: relative;
+
+}
 .nav-item {
     border: #222;
     text-align: center;  
     font-size: 1.5em; 
     background-color: #b8860b;
+    width: auto;
+    margin-left: 3px;
+    margin-right: 3px;
 } 
 /* Button */
 
 .navbar-header button.navbar-toggle  .navbar-nav  .nav-item {
     border: 2px solid #222;
+    margin-right: auto;
 
   } 
   
@@ -53,14 +66,19 @@ body {
     clear: both;
 }
  
- 
+
+#section1 {
+    position: ;
+}
 .content  {
     text-align: justify;
     color:#fff;
     background-color: beige;
     padding-left: 8px;
-    padding-right: 8px;   
+    padding-right: 8px; 
+    margin-right: 30px;  
 }
+
 
 p {
     background-color: darkred;
@@ -74,10 +92,14 @@ h3 {
     background-color: #222;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 15px;
     color: #fff;
     
     margin-top: 2px
 
+}
+#signature {
+    background-color: #daa520;
 }
 /* Media Queries*/  
 
@@ -102,8 +124,14 @@ h3 {
     
     .content {
         width: 100%;
+        position: relative;
+        text-align: justify; 
     }
-     
+    .navbar-brand {
+        float: left;
+        position: relative;
+
+    } 
 }
 
 /********** Small devices only **********/    
@@ -112,10 +140,23 @@ h3 {
     .content {
         width: 100%;
     }
+    .navbar-brand {
+        float: left;
+        position: relative; 
+        clear: both;
+
+    } 
      
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-    
+    .content {
+        width: 100%;
+    }
+    .navbar-brand {
+        float: left;
+        position:relative  ; 
+        clear: both; ;
+    } 
 }
